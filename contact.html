@@ -1,32 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="assets/styles/main.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="mission.html">Mission Statement</a></li>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>CyberCatalyst - Contact</title>  
+  <link rel="stylesheet" href="styles.css">  <!-- Add later -->  
+</head>  
+<body>  
+  <header>  
+    <h1>CyberCatalyst</h1>  
+    <nav>  
+      <a href="index.html">Home</a> |  
+      <a href="about.html">About</a> |  
+      <a href="contact.html">Contact</a>  
+    </nav>  
+  </header>  
 
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Us</h1>
-        <li><a href="https://execelement8423.tumblr.com/">Contact</a></li>
-        <img src="assets/images/contact.ppg" alt="Description of the image">
-        <img src="assets/images/twitter.png" alt="Description of the image">
+  <main>  
+    <section>  
+      <h2>Get in Touch</h2>  
+      <p>Questions about security, pentesting, or just want to chat? Reach out.</p>  
 
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Website</p>
-    </footer>
-</body>
-</html>
+      <ul>  
+        <li><strong>Email:</strong> <a href="mailto:execelement8423@gmail.com">execelement8423@gmail.com</a></li>  
+        <li><strong>Discord:</strong> execelement#1234</li>  
+        <li><strong>Twitter/X:</strong> <a href="https://x.com/execelement"> @execelement</a></li>  
+        <li><strong>Tumblr:</strong> <a href="https://execelement8423.tumblr.com/">Tumblr</a></li>  
+      </ul>  
+
+      <!-- Optional form – needs backend or Formspree -->  
+      <form action="https://formspree.io/f/yourformid" method="POST">  
+        <label for="name">Name:</label><br>  
+        <input type="text" id="name" name="name" required><br>  
+
+        <label for="email">Email:</label><br>  
+        <input type="email" id="email" name="email" required><br>  
+
+        <label for="message">Message:</label><br>  
+        <textarea id="message" name="message" rows="5" required></textarea><br>  
+
+        <button type="submit">Send</button>  
+      </form>  
+    </section>  
+  </main>  
+
+  <footer>  
+    <p>&copy; 2026 CyberCatalyst – All rights reserved.</p>  
+  </footer>  
+</body>  
+</html>  
